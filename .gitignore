@@ -1,0 +1,17 @@
+# Copyright (C) 2011 Turn, Inc.  All Rights Reserved.
+# Proprietary and confidential.
+#
+# Git ignore patterns.
+# @author Sudhir Sharma <sudhrrlsharma@gmail.com>
+
+# Build results, test output and test reports and generated source files
+/build/
+/target/
+/src/generated/
+/test/integration/output/
+/test/unit/generated/
+/test/unit/output/
+/test/reports/
+/cobertura.ser
+
+

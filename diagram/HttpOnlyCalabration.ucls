@@ -1,0 +1,48 @@
+<class-diagram version="1.0.7" icons="true" automaticImage="GIF" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="com.digitalriver.system.controller.httponly.HttpOnlyFilter" 
+    project="springHibernateMVC" 
+    file="/springHibernateMVC/src/main/java/com/digitalriver/system/controller/httponly/HttpOnlyFilter.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="227" y="244"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" corner="BOTTOM_RIGHT" language="java" 
+    name="com.digitalriver.system.controller.httponly.HttpOnlySetting" project="springHibernateMVC" 
+    file="/springHibernateMVC/src/main/java/com/digitalriver/system/controller/httponly/HttpOnlySetting.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="584" y="243"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" corner="BOTTOM_RIGHT" language="java" name="javax.servlet.Filter" project="springHibernateMVC" 
+    file="C:/Users/sudhirsh/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" binary="true">    
+    <position height="-1" width="-1" x="235" y="53"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <association id="4">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="5" name="httpOnlyStrategies"/>      
+      <multiplicity id="6" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="7">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
